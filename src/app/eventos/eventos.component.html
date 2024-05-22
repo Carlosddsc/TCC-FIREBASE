@@ -1,0 +1,27 @@
+<div class="body">
+  <h1>
+    <span class="agenda">Agenda</span>
+    <span class="de-eventos">de Eventos</span>
+  </h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Hora</th>
+        <th>Informações Adicionais</th>
+        <th>Ação</th> <!-- Nova coluna para ação (confirmar/negar) -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let evento of agenda">
+        <td>{{ evento.data }}</td>
+        <td>{{ evento.hora }}</td>
+        <td>{{ evento.informacoes }}</td>
+        <td>
+          <button class="confirmar" (click)="confirmarEvento(evento)">Confirmar</button>
+          <button class="negar" (click)="negarEvento(evento)">Negar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

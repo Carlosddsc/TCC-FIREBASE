@@ -1,0 +1,43 @@
+<form>
+  <div>
+    <label for="nomeCompleto">Nome Completo:</label>
+    <input type="text" id="nomeCompleto" name="nomeCompleto" ngModel required>
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" ngModel required>
+  </div>
+  <div>
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade" ngModel required>
+  </div>
+  <div>
+    <label for="paroquia">Paróquia:</label>
+    <select id="paroquia" name="paroquia" ngModel required>
+      <option value="">Selecione...</option>
+      <option value="santa_ana">Sant'Ana e São Joaquim</option>
+      <option value="perpetuo_socorro" disabled>Perpétuo Socorro</option>
+    </select>
+  </div>
+  <div>
+    <label for="servo">Servo:</label>
+    <select id="servo" name="servo" ngModel required>
+      <option value="">Selecione...</option>
+      <option value="ministro" ng-disabled="true" >Ministro</option>
+      <option value="acolito" disabled> Acolito</option>
+      <option value="catequista" disabled >Catequista</option>
+      <option value="grupo_jovens" disabled >Grupo de Jovens</option>
+    </select>
+  </div>
+  <div>
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" ngModel required>
+  </div>
+  <div>
+    <label for="confirmarSenha">Confirmar Senha:</label>
+    <input type="password" id="confirmarSenha" name="confirmarSenha" ngModel required>
+  </div>
+
+  <button type="submit" id="concluirCadastroButton">Concluir Cadastro</button>
+  <button type="button" id="cancelarCadastroButton"(click)="goToCadastro()">Cancelar Cadastro</button>
+</form>

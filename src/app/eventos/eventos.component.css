@@ -1,0 +1,83 @@
+/* Estilo para toda a tela */
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #8e44ad; /* Fundo roxo mais claro */
+}
+
+/* Estilo para o conteúdo */
+div {
+  background-color: #0c045b; /* Fundo roxo mais claro */
+  padding: 20px; /* Espaçamento interno */
+  box-sizing: border-box; /* Inclui o padding no cálculo da largura e altura */
+}
+
+/* Estilo para a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #d2b4de; /* Fundo roxo mais claro para a tabela */
+}
+
+/* Estilo para o cabeçalho da tabela */
+thead th {
+  background-color: #6a0dad; /* Tonalidade de roxo mais escura */
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilo para as células da tabela */
+td {
+  padding: 10px;
+  border: 1px solid #6a0dad; /* Borda roxa */
+}
+
+/* Estilo para os botões */
+button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  color: white; /* Texto branco */
+}
+
+/* Estilo para o botão de confirmar */
+button.confirmar {
+  background-color: green; /* Verde */
+}
+
+/* Estilo para o botão de negar */
+button.negar {
+  background-color: red; /* Vermelho */
+}
+
+/* Estilo para alteração de cor quando passar o mouse */
+button:hover {
+  filter: brightness(1.2); /* Aumenta a luminosidade em 20% */
+}
+
+/* Estilo para o título "Agenda de Eventos" */
+h1 {
+  text-align: center;
+  font-size: 36px; /* Tamanho grande */
+  margin-bottom: 10px;
+  color: white; /* Cor branca */
+}
+
+/* Estilo para a parte "Agenda" */
+h1 span.agenda {
+  font-size: 48px; /* Tamanho maior */
+}
+
+/* Estilo para a parte "de Eventos" */
+h1 span.de-eventos {
+  font-size: 24px; /* Tamanho menor */
+  display: block; /* Coloca em uma linha diferente */
+}
+
+/* Estilo para os dados (data, hora, informações) */
+td {
+  padding: 10px;
+  border: 1px solid #6a0dad; /* Borda roxa */
+  color: white; /* Cor branca */
+}

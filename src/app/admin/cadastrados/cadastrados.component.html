@@ -1,0 +1,32 @@
+<div>
+  <h1>Lista de Cadastros</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome Completo</th>
+        <th>Email</th>
+        <th>Idade</th>
+        <th>Paróquia</th>
+        <th>Servo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Suponha que você tenha pelo menos dois usuários na lista -->
+      <tr>
+        <td>{{ usuarios[0].nomeCompleto }}</td>
+        <td>{{ usuarios[0].email }}</td>
+        <td>{{ usuarios[0].idade }}</td>
+        <td>{{ usuarios[0].paroquia }}</td>
+        <td>{{ usuarios[0].servo }}</td>
+      </tr>
+      <tr>
+        <td>{{ usuarios[1].nomeCompleto }}</td>
+        <td>{{ usuarios[1].email }}</td>
+        <td>{{ usuarios[1].idade }}</td>
+        <td>{{ usuarios[1].paroquia }}</td>
+        <td>{{ usuarios[1].servo }}</td>
+      </tr>
+      <!-- Adicione mais linhas conforme necessário para todos os usuários -->
+    </tbody>
+  </table>
+</div>

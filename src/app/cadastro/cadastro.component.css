@@ -1,0 +1,66 @@
+form {
+  width: 50%; /* Ajuste a largura conforme necessário */
+  margin: 0 auto; /* Centraliza o formulário na tela */
+}
+
+div {
+  margin-bottom: 10px; /* Espaçamento entre os campos */
+}
+
+label {
+  display: block; /* Cada label em uma nova linha */
+  color: green; /* Cor dos labels */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid green; /* Borda verde */
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid blue; /* Borda azul */
+}
+
+button {
+  background-color: blue; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue; /* Mudança de cor ao passar o mouse */
+}
+
+button {
+  background-color: blue; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px; /* Espaçamento entre os botões */
+}
+
+button:hover {
+  background-color: darkblue; /* Mudança de cor ao passar o mouse */
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid green; /* Borda verde */
+}
+
+input[type="password"]:focus {
+  outline: none;
+}
+
+input[type="password"]:invalid {
+  border-color: red; /* Borda vermelha se o campo estiver inválido */
+}
